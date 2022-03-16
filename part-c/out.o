@@ -1,0 +1,49 @@
+
+ Testing libpng version 1.6.34
+   with zlib   version 1.2.8
+
+libpng version 1.6.34 - September 29, 2017
+Copyright (c) 1998-2002,2004,2006-2017 Glenn Randers-Pehrson
+Copyright (c) 1996-1997 Andreas Dilger
+Copyright (c) 1995-1996 Guy Eric Schalnat, Group 42, Inc.
+ library (10634): libpng version 1.6.34 - September 29, 2017
+
+ pngtest (10634): libpng version 1.6.34 - September 29, 2017
+
+ Testing large-png-suite/4.png:
+large-png-suite/4.png: libpng warning: IDAT: incorrect data check
+
+large-png-suite/4.png: libpng warning: IDAT: CRC error
+large-png-suite/4.png -> pngout.png: libpng read error
+
+ Testing large-png-suite/4.png: FAIL
+
+ Testing large-png-suite/4.png:
+ Pass 0: rwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrw
+         rwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrw
+         rwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrw
+         rwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrw
+         rwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrw
+         rwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrw
+         rwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrw
+         rwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrw
+         rwrwrwrwrwrwrwrwrwrwrwrwrwrwrw
+large-png-suite/4.png: libpng warning: IDAT: incorrect data check
+
+large-png-suite/4.png: libpng warning: IDAT: CRC error
+large-png-suite/4.png -> pngout.png: libpng read error
+
+ Testing large-png-suite/4.png: FAIL
+
+ Testing large-png-suite/4.png:
+large-png-suite/4.png: libpng warning: IDAT: incorrect data check
+
+large-png-suite/4.png: libpng warning: IDAT: CRC error
+large-png-suite/4.png -> pngout.png: libpng read error
+ FAIL
+ libpng FAILS test
+ Default limits:
+  width_max  = 1000000
+  height_max = 1000000
+  cache_max  = 1000
+  malloc_max = 8000000

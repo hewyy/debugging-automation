@@ -1,0 +1,5 @@
+patched.c: In function ‘next_world’:
+patched.c:34:11: error: ‘j’ undeclared (first use in this function)
+       out[j] = (hc == 1 || hc == 2) ? 'H' : '.';
+           ^
+patched.c:34:11: note: each undeclared identifier is reported only once for each function it appears in

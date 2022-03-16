@@ -1,0 +1,65 @@
+File 'png.c'
+Lines executed:24.76% of 1236
+Creating 'png.c.gcov'
+
+File 'pngerror.c'
+Lines executed:28.57% of 252
+Creating 'pngerror.c.gcov'
+
+File 'pngget.c'
+Lines executed:31.63% of 449
+Creating 'pngget.c.gcov'
+
+File 'pngmem.c'
+Lines executed:66.67% of 81
+Creating 'pngmem.c.gcov'
+
+File 'pngpread.c'
+No executable lines
+Removing 'pngpread.c.gcov'
+
+File 'pngread.c'
+Lines executed:10.35% of 1449
+Creating 'pngread.c.gcov'
+
+File 'pngrio.c'
+Lines executed:68.18% of 22
+Creating 'pngrio.c.gcov'
+
+File 'pngrtran.c'
+Lines executed:4.94% of 1984
+Creating 'pngrtran.c.gcov'
+
+File 'pngrutil.c'
+Lines executed:30.56% of 1705
+Creating 'pngrutil.c.gcov'
+
+File 'pngset.c'
+Lines executed:25.00% of 632
+Creating 'pngset.c.gcov'
+
+File 'pngtest.c'
+Lines executed:51.38% of 508
+Creating 'pngtest.c.gcov'
+
+File 'pngtrans.c'
+Lines executed:2.37% of 253
+Creating 'pngtrans.c.gcov'
+
+File 'pngwio.c'
+Lines executed:48.48% of 33
+Creating 'pngwio.c.gcov'
+
+File 'pngwrite.c'
+Lines executed:19.38% of 810
+Creating 'pngwrite.c.gcov'
+
+File 'pngwtran.c'
+Lines executed:7.04% of 213
+Creating 'pngwtran.c.gcov'
+
+File 'pngwutil.c'
+Lines executed:48.42% of 979
+Creating 'pngwutil.c.gcov'
+
+Lines executed:23.05% of 10606

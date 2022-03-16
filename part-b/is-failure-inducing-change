@@ -1,0 +1,24 @@
+#!/bin/bash
+
+RET=0
+
+f='error.txt'
+
+cp wireworld-original.c patched.c
+
+# perform the patching
+for i in $*; do
+  patch patched.c < patch.$i > /dev/null
+done
+
+# try to compile
+(gcc -c patched.c | grep 'error') &> error.txt
+
+if [[ -s $f ]]; then # if not empty
+  RET=1
+fi
+
+rm patched.c
+rm error.txt
+echo $RET
+exit $RET
